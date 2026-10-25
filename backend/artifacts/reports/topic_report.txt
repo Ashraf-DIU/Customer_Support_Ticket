@@ -1,0 +1,22 @@
+                          precision    recall  f1-score   support
+
+          Account access       1.00      1.00      1.00        83
+            Battery life       1.00      1.00      1.00        75
+    Cancellation request       1.00      1.00      1.00        79
+               Data loss       1.00      1.00      1.00        73
+        Delivery problem       1.00      1.00      1.00        74
+           Display issue       1.00      1.00      1.00        67
+          Hardware issue       1.00      1.00      1.00        71
+    Installation support       1.00      1.00      1.00        74
+         Network problem       0.99      1.00      0.99        90
+           Payment issue       1.00      1.00      1.00        82
+Peripheral compatibility       1.00      1.00      1.00        80
+   Product compatibility       1.00      1.00      1.00        77
+  Product recommendation       1.00      1.00      1.00        75
+           Product setup       1.00      1.00      1.00        77
+          Refund request       1.00      1.00      1.00        81
+            Software bug       1.00      0.99      1.00       105
+
+                accuracy                           1.00      1263
+               macro avg       1.00      1.00      1.00      1263
+            weighted avg       1.00      1.00      1.00      1263

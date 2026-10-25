@@ -1,0 +1,86 @@
+{
+  "version": "tfidf-linear-20261025",
+  "trained_at": "2026-10-25T13:51:17.482531+00:00",
+  "sklearn_version": "1.6.1",
+  "rows": {
+    "total": 8456,
+    "train": 5925,
+    "val": 1268,
+    "test": 1263
+  },
+  "tasks": {
+    "category": {
+      "target_column": "Ticket Type",
+      "classes": [
+        "Billing inquiry",
+        "Cancellation request",
+        "Product inquiry",
+        "Refund request",
+        "Technical issue"
+      ],
+      "best_model": "logreg(C=8.0)",
+      "ngram": [
+        1,
+        1
+      ],
+      "val_macro_f1": 0.2072,
+      "test_macro_f1": 0.1868,
+      "test_accuracy": 0.1861,
+      "baseline_macro_f1": 0.2093,
+      "baseline_accuracy": 0.2098,
+      "above_chance": false
+    },
+    "priority": {
+      "target_column": "Ticket Priority",
+      "classes": [
+        "Critical",
+        "High",
+        "Low",
+        "Medium"
+      ],
+      "best_model": "logreg(C=0.5)",
+      "ngram": [
+        1,
+        1
+      ],
+      "val_macro_f1": 0.2642,
+      "test_macro_f1": 0.2183,
+      "test_accuracy": 0.2185,
+      "baseline_macro_f1": 0.258,
+      "baseline_accuracy": 0.2597,
+      "above_chance": false
+    },
+    "topic": {
+      "target_column": "Ticket Subject",
+      "classes": [
+        "Account access",
+        "Battery life",
+        "Cancellation request",
+        "Data loss",
+        "Delivery problem",
+        "Display issue",
+        "Hardware issue",
+        "Installation support",
+        "Network problem",
+        "Payment issue",
+        "Peripheral compatibility",
+        "Product compatibility",
+        "Product recommendation",
+        "Product setup",
+        "Refund request",
+        "Software bug"
+      ],
+      "best_model": "logreg(C=2.0)",
+      "ngram": [
+        1,
+        2
+      ],
+      "val_macro_f1": 1.0,
+      "test_macro_f1": 0.9994,
+      "test_accuracy": 0.9992,
+      "baseline_macro_f1": 0.0519,
+      "baseline_accuracy": 0.0523,
+      "above_chance": true
+    }
+  }
+}
