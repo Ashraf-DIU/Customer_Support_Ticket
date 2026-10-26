@@ -7,4 +7,4 @@ redistributing any part of it.
 
 Columns used: `Ticket Subject`, `Ticket Description`, `Ticket Type`, `Ticket Priority`.
 Note: the dataset is synthetic, and its labels may not depend on the ticket text.
-Notebook 01 measures this before you train.
+Notebook 01 measures this before you train with notebook 02.
