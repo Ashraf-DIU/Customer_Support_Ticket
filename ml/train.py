@@ -1,5 +1,4 @@
-"""Train SupportIQ models on the Kaggle 'Customer Support Ticket Dataset'.
-
+"""Train SupportIQ models on the Kaggle 'Customer Support Ticket Dataset' Project.
 Usage:
     python ml/train.py --csv data/customer_support_tickets.csv --out backend/artifacts
 """
